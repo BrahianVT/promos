@@ -230,9 +230,9 @@ es:
           tag_feed:
             description: Puntuación mínima necesaria para que una publicación aparezca en la página de etiquetas predeterminada.
           head_content:
-            description: Contenido que se agregará al final de la etiqueta principal en cada página (ADVERTENCIA: esto se almacenará en caché dentro de la solicitud de la página de manera desigual. Proceda con precaución).
+            description: Contenido que se agregará al final de la etiqueta principal en cada página (ADVERTENCIA — esto se almacenará en caché dentro de la solicitud de la página de manera desigual. Proceda con precaución).
             placeholder: 'Deje vacío si no desea agregar nada.'
           bottom_of_body_content:
-            description: Contenido que se agregará al final de la etiqueta del cuerpo en cada página (ADVERTENCIA: esto se almacenará en caché dentro de la solicitud de la página de manera desigual. Proceda con precaución).
+            description: Contenido que se agregará al final de la etiqueta del cuerpo en cada página (ADVERTENCIA — esto se almacenará en caché dentro de la solicitud de la página de manera desigual. Proceda con precaución).
             placeholder: 'Deje vacío si no desea agregar nada.'
 
