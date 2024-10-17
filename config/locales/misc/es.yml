@@ -25,7 +25,7 @@ es:
         suspended: Parece que tu cuenta anterior de %{community_name} fue suspendida. Como tal, hemos tomado medidas para evitar que crees una nueva cuenta con %{community_name} y su comunidad. Si crees que ha habido un error, envíanos un correo electrónico a %{community_email} y lo revisaremos.
     fastly_config:
       must_be_array: 'configs: debe ser una matriz de cadenas'
-      invalid_config: Configuración de Fastly no válida: %{invalid_config}. Solo %{valid_configs_join} son válidos.
+      invalid_config: Configuración de Fastly no válida - %{invalid_config}. Solo %{valid_configs_join} son válidos.
   policies:
     application_policy:
       must_be_logged_in: debes iniciar sesión
