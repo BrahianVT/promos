@@ -82,7 +82,7 @@ es:
       invalid_options: Opciones no válidas
       invalid_stackblitz_id: ID de Stackblitz no válido
     stackery_tag:
-      missing_argument: Stackery: faltan argumentos de nombre de propietario y/o repositorio
+      missing_argument: Stackery - faltan argumentos de nombre de propietario y/o repositorio
     stackexchange_tag:
       post_not_found: "No se pudo encontrar una publicación con esa ID: {% %{tag} %{input} %}"
       invalid_id: 'ID de Stack Exchange no válido: {% %{tag} %{input} %}'
