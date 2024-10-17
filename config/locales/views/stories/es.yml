@@ -10,8 +10,8 @@ es:
       discuss: "#discutir"
       follow: Seguir
       menu:
-        aria_left: botón-izquierdo-de-navegación
-        aria_right: botón-derecho-de-navegación
+        aria_left: nav-button-left
+        aria_right: nav-button-right
       sort:
         aria_label: Ver publicaciones por
         aria_tagged: Ver publicaciones etiquetadas por

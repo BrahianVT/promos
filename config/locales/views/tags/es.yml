@@ -35,7 +35,7 @@ es:
             placeholder: Esta es una sección "acerca de". Siéntase libre de agregar preguntas frecuentes, recursos adicionales, etc.
           rules_markdown:
             label: Markdown de reglas
-            placeholder: Opcional: se puede utilizar para desafíos, es decir, pautas de envío.
+            placeholder: Opcional - se puede utilizar para desafíos, es decir, pautas de envío.
           submit: Guardar
       follow: Seguir
       hide: Ocultar

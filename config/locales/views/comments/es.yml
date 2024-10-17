@@ -78,8 +78,8 @@ es:
         hidden:
           icon: Información
           text:
-            visible_in_permalink: Comentario oculto por el autor de la publicación: el hilo solo está visible en este enlace permanente
-            accessible_via_permalink: Comentario oculto por el autor de la publicación: solo se puede acceder al hilo a través del enlace permanente
+            visible_in_permalink: Comentario oculto por el autor de la publicación - el hilo solo está visible en este enlace permanente
+            accessible_via_permalink: Comentario oculto por el autor de la publicación - solo se puede acceder al hilo a través del enlace permanente
       write:
         errors:
           one: '1 error impidió que se guardara este comentario:'
