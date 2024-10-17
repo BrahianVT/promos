@@ -1,0 +1,157 @@
+---
+es:
+  views:
+    comments:
+      meta:
+        title_root: Discusión de %{title}
+        description: Un artículo de la comunidad
+        og:
+          title: Discusión de %{title}
+          title_rel: "%{root} — %{site}"
+          title_root: "[Discusión] %{title} — %{site}"
+          description: "Comentario de %{site}"
+      parent:
+        subtitle_html: "%{start}Discusión sobre: %{end}%{title}"
+        metadata_html: "%{name}%{on}"
+        date: " el %{date}"
+        full: Discusión completa
+        read: Leer publicación completa
+        view: Ver publicación
+        view_full:
+          one: Ver discusión completa (%{count} comentario)
+          other: Ver discusión completa (%{count} comentarios)
+        reply_html: "%{start}Respuestas a:%{end} %{title}"
+      delete:
+        heading: ¿Estás seguro de que quieres eliminar este comentario?
+        desc_html: No puedes deshacer esta acción, ¿quizás quieres %{action} en su lugar?
+        action: Editarlo
+        submit: Eliminar
+        edit: Editar
+        cancel: Descartar
+        comment_deleted: Comentario eliminado
+      collapse: Contraer
+      edit: Editando comentario
+      edited:
+        text_html: "&bull; Editado el %{date}"
+        short_html: "&bull; Editado"
+      expand: Expandir
+      visible_signed_in:
+        text_html: "Es posible que algunos comentarios solo estén visibles para los visitantes que hayan iniciado sesión. %{sign_in} para ver todos los comentarios."
+        sign_in: "Iniciar sesión"
+      hidden:
+        text_html: El autor de la publicación ha ocultado algunos comentarios. %{info}
+        info: obtener más información
+        comment_hidden: Comentario oculto por el autor de la publicación
+      hider:
+        description_html: ¿Estás seguro de que quieres ocultar este comentario? Se ocultará en tu publicación, pero seguirá siendo visible a través del %{permalink} del comentario.
+        hide_child: Ocultar también los comentarios secundarios
+        note_html: Para otras acciones, puedes considerar bloquear a esta persona o %{reporting}
+        permalink: enlace permanente
+        reporting: denunciar abuso
+        submit: Confirmar
+      locked: La discusión se ha bloqueado. No se pueden añadir nuevos comentarios.
+      orphan:
+        deleted: "[Comentario de una publicación eliminada]"
+      re:
+        text_html: "%{re}%{title}"
+        re: 'Re: '
+      settings:
+        meta:
+          title: Configuración de comentarios
+        heading: Configuración de comentarios
+        state:
+          show:
+            subtitle: Mostrar notificaciones de hilos
+            desc: Recibirás todas las notificaciones de este comentario y de cualquiera de tus comentarios en esta cadena.
+          mute:
+            subtitle: Silenciar notificaciones de hilos
+            desc: Todas las notificaciones de este comentario y de cualquiera de tus comentarios en el hilo están actualmente silenciadas.
+        subscribe:
+          subtitle: Suscripción
+          desc: Sigues suscrito a todos los comentarios del hilo en general, lo que significa que seguirás recibiendo notificaciones de las respuestas a este comentario.
+          mute: Silenciar notificaciones
+          unmute: Activar notificaciones
+      quality:
+        low: La comunidad ha marcado este comentario como de baja calidad o no constructivo.
+        superlow: La puntuación del comentario está por debajo del umbral de ocultación, solo se muestra a los administradores
+        conduct: Ver el código de conducta
+        hidden:
+          icon: Información
+          text:
+            visible_in_permalink: Comentario oculto por el autor de la publicación: el hilo solo está visible en este enlace permanente
+            accessible_via_permalink: Comentario oculto por el autor de la publicación: solo se puede acceder al hilo a través del enlace permanente
+      write:
+        errors:
+          one: '1 error impidió que se guardara este comentario:'
+          other: "%{count} errores impidieron que se guardara este comentario:"
+        field:
+          aria_label: Añade un comentario a la discusión
+          placeholder: Añade a la discusión
+          submit: Subir
+          templates: Plantillas
+          upload: Subir imagen
+          use: Usar una plantilla de respuesta
+          guide:
+            title: Guía de Markdown
+            icon: Guía del editor
+        template:
+          article: Esta publicación viene con una plantilla de comentario
+          create:
+            subtitle: Crear plantilla
+            desc: Las plantillas te permiten responder rápidamente a las preguntas frecuentes o almacenar fragmentos para reutilizarlos.
+          moderator: Usuario de confianza
+          personal: Personal
+        submit: Enviar
+        preview: Vista previa
+        cancel: Descartar
+      menu:
+        aria_label: Abrir/cerrar menú desplegable
+        icon: Menú desplegable
+        copy:
+          aria_label: Copiar enlace al comentario de %{user}
+          text: Copiar enlace
+        settings:
+          aria_label: Ir a la configuración de comentarios de %{user}
+        action:
+          aria_label: "%{action} el comentario de %{user}"
+          hide: Ocultar
+          unhide: Mostrar
+          hide_text: Ocultar
+          unhide_text: Mostrar
+        moderate:
+          aria_label: Moderar el comentario de %{user}
+        report:
+          aria_label: Denunciar el comentario de %{user} como abusivo o que infringe nuestro código de conducta o nuestros términos y condiciones.
+      footer:
+        heart:
+          aria_label: Me gusta
+          title: Me gusta
+          icon: 'Me gusta el comentario: '
+          count_html: "%{num}%{likes}"
+          text: Me gusta
+        reply:
+          aria_label: Responder a un comentario...
+          icon: Botón de comentario
+          done: Respondido
+          text: Responder
+          placeholder: Responder...
+        thread:
+          icon: Hilo
+          text: Hilo
+        view:
+          icon: Botón de vista
+          text: Ver
+        subscribe:
+          icon: Botón de suscripción
+          text: Suscribirse a los comentarios
+      count:
+        one: "%{count} comentario"
+        other: "%{count} comentarios"
+      empty: Nuevo
+      add: "Añadir\_Comentario"
+      summary:
+        count_html:
+          one: "%{count}%{start}\_comentario%{end}"
+          other: "%{count}%{start}\_comentarios%{end}"
+        title: Comentarios
+

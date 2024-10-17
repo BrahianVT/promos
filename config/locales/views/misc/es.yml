@@ -1,0 +1,144 @@
+---
+es:
+  views:
+    badges:
+      meta:
+        title: Medallas
+      all:
+        one: Mostrar una medalla
+        other: Mostrar todas  %{count}
+      heading: Medallas
+      desc: Recibe medallas por ser genial! Click en la medalla para más infomación.
+      icon_close: Cerrar
+      gotit: Entiendo
+      indicator: "%{user} consiguio esta medalla %{number} veces."
+    campaign:
+      subtitle: Historias (%{count})
+      view: Ver todas las publicaciones
+    deep_links:
+      subtitle: Abriendo la app...
+      alert:
+        subtitle: Whoops! Tuviste algun problema intentando abrir la app?
+        desc_html: Asegurate de estar instalado e intenta otra vez. Si persiste el problema contacta en %{email}
+        back: Regresar
+        again: Intentar de nuevo
+        install: Instalar la app
+    email_subscriptions:
+      unsubscribe:
+        heading: "Se ha dado de baja de %{type}. 😔"
+        description_html: Ya no recibiras emails como estos. Si quieres darte de alta otra vez o administrar  prferencias del email  %{link}.
+        link: click aqui
+      invalid:
+        heading: Token expirado  o invalido
+        description_html: Por favor %{signin} para administrar tus preferencias de email .
+        signin: Iniciar Sesión 
+    hamburger:
+      icon: Navegacion del menu
+      icon_close: Cerrar
+      icon_left: Menu izquierdo
+      icon_right: Menu Derecho
+    logo:
+      color_1:
+        label: color de la marca 1
+        description: Usalo para fondos de pantalla, bordes etc.
+      color_2:
+        label: color de la marca 2
+        description_html: Usalo para textos (usualmente se pone en  <em>color de la marca 1</em>).
+      preview:
+        icon: App logo
+        text: 'Preview:'
+    mailers:
+      contact_mailto_html: Contactanos en  <a href="mailto:%{contact_email}">%{contact_email}</a> si hay algo más en lo que podemos ayudar.
+    onboardings:
+      meta:
+        title: Bienvenido a %{community}
+      heading: Ya eres miembro de la comunidad!
+      subtitle: COSAS QUE TU PUEDES HACER
+      close: Cerrar Mensaje de bienvenida
+      settings_html: "<span class=\"emoji\">💅🏼</span>Completa tu perfil"
+      welcome_html: "<span class=\"emoji\">😊</span>unete a la publicación de bienvenida"
+      write_html: "<span class=\"emoji\">✍🏾</span>Escribe tu primera  publicación en %{community}"
+      join_subscription_html: "<span class=\"emoji\">🚀</span>Join Promoabastos++"
+    pins:
+      article: Fijar
+      pinned: "📌 ¡Fijado! (Las publicaciones fijadas se muestran cronológicamente, 5 como máximo)"
+      removed: "🗑 Pin Removido"
+      error: Solo puedes fijar 5 
+    profile:
+      color:
+        label: color
+        description: Usador para fondos, bordes etc.
+    reading_list:
+      meta:
+        title: Lista de lectura
+        description: Mis articulos guardados.
+        og:
+          title: Lista de lectura - %{community}
+    search:
+      heading: Buscando resultados%{for}
+      for: " para %{query}"
+      placeholder: Buscar...
+      icon:
+        aria_label: Buscar
+        title: Buscar
+      nav:
+        posts: Articulos
+        podcasts: Podcasts
+        people: Gente
+        comments: Comentarios
+        my_posts: Solo mis articulos
+        organizations: Organizaciones
+        tags: Categorias
+      sort:
+        aria_label: Opciones de ordenado de resultado de busqueda
+        relevance: Más relevante
+        newest: Nuevos
+        oldest: Viejos
+      meta:
+        title: Busqueda resultados%{for}
+        for: " para %{query}"
+        description: "%{site} => Busqueda resultados"
+    series:
+      meta:
+        description: Ver %{title} en %{site}
+      heading: "Series de %{user}"
+      empty: Estee usuario no tiene alguna serie
+      list:
+        heading: "%{series} Serie de articulos"
+        back: Regresar a las series de %{user}
+        empty: Esta serie no tiene algun articulo
+    stats:
+      meta:
+        title: Estadisticas para tus articulos
+      heading_html: estadisticas para "%{article}"
+      period:
+        aria_label: Periodo de analisis
+        week: Semana
+        month: Mes
+        infinity: Infinito
+      readers: Resumen lectores
+      followers: Resumen nuevos seguidores
+      reactions: "Resumen reacciones"
+      comments: "Resumen comentarios"
+      traffic:
+        text: "Resumen Origen de trafico"
+        source: Fuente
+        views: Vistas
+      reactions_history: "Historia de reacciones"
+    sticky:
+      joined: Se unio
+      default_cta: Aprende mas
+      email: Email
+      hot: Caliente
+      location: Ubicacion
+      more_from_html: Mas desde %{actor}
+      no_summary: Publicaciones en esta categoria
+      trending_html: Tendencia en %{app}
+    videos:
+      meta:
+        title: Videos
+        og:
+          description: Todos los videos en %{community}
+      heading: " Video en %{community}"
+      beta_html: "<strong>Video esta  en beta:</strong> %{contact}"
+      upload: "🎥 Subiendo video 🙌"

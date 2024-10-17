@@ -1,0 +1,80 @@
+---
+es:
+  views:
+    listings:
+      meta:
+        description: "Listando %{community}"
+      heading: Listados
+      back: Regresar
+      delete:
+        subtitle: Estas seguro que quieres eliminar este listado?
+        description:
+          text_html: No puedes hacer esto, pero talvez quieres %{action} en su lugar?
+          edit: editar
+          unpublish: bajar
+        edit: Editar
+        submit: Eliminar
+        unpublish: Bajar
+      edit:
+        heading: Editar Listado
+        bump:
+          subtitle: Aumentar tu listado
+          button: Aumentar listado
+          description: Puede aumentar su listado por el mismo precio que el listado original
+          last: 'Ultima publicada/Aumentada: %{date}'
+        notice: Solo puedes editar titulo/cuerpo/etiquetas  de borradores dentro de las primeras 24 horas de listado o aumentado
+        not_published:
+          text_html: Este listado  %{not} esta publicado.
+          aside_html: Este listado  %{not} esta publicado
+          not: no
+        publish: Publicar listado
+        unpublish: Eliminar listado
+        update: Actualizar listado
+        update_draft: Actualizar borrador 
+      to_edit: Editar
+      errors:
+        one: '1 error prohibe el listado de ser guardado:'
+        other: "%{count} errores prohiben este listado de ser guardado:"
+      expired: Ete listado ha expirado.
+      form:
+        body_markdown:
+          description: 400 letras maximo, 12 lineas break maximo, no imagenes, *usar markdown es recomendado*. Favor de incluir metodo de contacto.
+          placeholder: "..."
+        category:
+          label: Categoria
+          placeholder: Conferencia CFP (1 Credito)
+          summary: Detalles de categoria/reglas
+        expiry:
+          description: If aplica para eventos en fecha especifica, fechas limites , etc.
+        location:
+          description: 32 Caractares maximo, texto plano
+          label: Ubicacion (En caso de aplicar para eventos, etc.)
+          placeholder: CDMX
+        no_credit: Necesitas almenos un credito para crear un listado.
+        organization:
+          description: Postear desde una organización, gasta los creditos de la organizacion.
+          none: Nada
+        publish: Publicando listado
+        purchase: Comprar creditos
+        save: Guardar borrador
+        save_notice: No gastaras creditos por guardar un borrador.
+        tags:
+          placeholder: Agrega hasta 8 etiquetas...
+        title:
+          placeholder: 128 caracteres maximo, texto plano
+      nav:
+        aria_label: Listados
+        create: Crear
+        manage: Administrar
+      new:
+        meta:
+          title: Nuevo Listado
+        heading: Crear una lista de comunidad
+        buy: Comprar más
+        disclaimer:
+          subtitle: Aviso de responsabilidad
+          description1: "%{community} puede modificar categorias y algun otro detalle para asegurar precision y/o calidad, tambien podemos eliminar y reembolsar listados inapropiados."
+          description2: Listados expiran despues de 30 días de listados o "renovados".
+        organization: Creditos de la organización
+        personal: Creditos personales
+      preview_icon: logo promoabastos

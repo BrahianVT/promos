@@ -1,0 +1,21 @@
+---
+es:
+  views:
+    feedback:
+      meta:
+        title: Comentarios
+      heading: Gracias por tu reporte.
+      home: Volver a la página principal
+      form:
+        rude_or_vulgar: Grosero o vulgar
+        harassment: Acoso o discurso de odio
+        spam: Spam o problema de derechos de autor
+        listings: Mensaje/categoría de listados inapropiados
+        other: Otro
+        url: URL reportada
+        message:
+          subtitle: Mensaje
+          description: Proporciona cualquier información o contexto adicional que nos ayude a comprender y manejar la situación.
+          placeholder: "..."
+        submit: Enviar comentarios
+

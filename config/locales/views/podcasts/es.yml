@@ -1,0 +1,38 @@
+---
+es:
+  views:
+    podcasts:
+      meta:
+        title: Podcasts
+        description: Descubre podcasts para %{member}
+        og:
+          title: Podcasts en %{community}
+      browse: Explorar
+      heading: Podcasts
+      close: "×"
+      form:
+        heading: Sugerir un podcast
+        errors:
+          one: '1 error al crear un podcast:'
+          other: "%{count} errores al crear un podcast:"
+        owner: Soy el dueño de este podcast
+        return: "< volver a podcasts"
+        suggest: Sugerir
+      list: podcasts
+      listen: Haga clic aquí para descargar/escuchar
+      source: Fuente del episodio
+      statuses:
+        ssl_failed: Error al verificar el certificado SSL al recuperar feed_url del podcast
+        unparsable: No se pudo analizar el rss del podcast
+        unplayable: Es posible que este podcast no se pueda reproducir en el navegador
+        unreachable: No se puede acceder a la feed_url del podcast
+      speed: 1x
+      tag: podcast
+      initializing: inicializando...
+      unsupported: Tu navegador no soporta el elemento de audio.
+      featured_shows: Programas destacados
+      latest_episodes: Últimos episodios
+      suggest_a_podcast: Sugerir un podcast
+      view_all_podcasts: Ver todos los podcasts
+      follow: Seguir
+

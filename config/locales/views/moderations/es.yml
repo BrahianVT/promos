@@ -1,0 +1,215 @@
+---
+es:
+  views:
+    moderations:
+      heading: Centro de Moderación
+      actions:
+        meta:
+          title: Moderando %{title}
+          title2: '[Moderar] %{title}'
+        heading: Moderar Publicación
+        subtitle: Califica la calidad de esta publicación
+        abusive:
+          subtitle_html: Marcar %{user} como Abusivo
+          desc_html: Esto es equivalente a marcar <b>todas</b> las publicaciones de este usuario y bajará sus puntuaciones.
+        adjust:
+          heading: Ajustar etiquetas
+          subtitle: Agregar o quitar etiquetas
+          aria_label: Abrir sección de ajuste de etiquetas
+          icon: Ajustar etiquetas
+          add: Agregar etiqueta
+          add_placeholder: Agrega una etiqueta
+          previous: Ajustes de etiquetas anteriores
+          history:
+            added_by: añadido por
+            removed_by: eliminado por
+          reason:
+            remove_tag: Razón para eliminar la etiqueta (opcional)
+            add_tag: Razón para agregar la etiqueta (opcional)
+          remove: Eliminar etiqueta
+          submit: Enviar
+          cancel: Cancelar
+          maximum_tags:
+            icon: Información
+            text: Una publicación solo puede tener cuatro etiquetas.
+          add_tag:
+            header: Agregar nueva etiqueta
+            button_text: Agregar nueva etiqueta
+            icon: Agregar etiqueta
+          cannot_remove_admin_adjusted_tag_html: La etiqueta ha sido agregada por un administrador. No puedes eliminarla ahora. Si crees que es un error, contáctanos en <a href="mailto:%{contact_email}">%{contact_email}</a>.
+          cannot_add_admin_adjusted_tag_html: La etiqueta ha sido eliminada por un administrador. No puedes agregarla ahora. Si crees que es un error, contáctanos en <a href="mailto:%{contact_email}">%{contact_email}</a>.
+        approve:
+          add: Marcar como aprobado
+          remove: Eliminar aprobación
+        checkmark: Marca de verificación
+        close: Cerrar panel de acciones del moderador
+        delete:
+          subtitle: Eliminar este comentario
+          button: Eliminar comentario
+        edit:
+          post: Editar publicación
+          article_admin: Admin:Artículo
+          comment_admin: Admin:Comentario
+          user_admin: Admin:Usuario
+          resource_admin: ResourceAdmin:Artículo
+        errors:
+          one: '1 error impidió que este bloque se guardara:'
+          other: '%{count} errores impidieron que este bloque se guardara:'
+        experience:
+          heading: Establecer nivel de experiencia
+          heading2: Nivel de experiencia de la publicación
+          subtitle: Selecciona la audiencia más adecuada para esta publicación
+          aria_label: Abrir sección de nivel de experiencia
+          icon: Libro
+          desc_html: ¿Quién <em>podría</em> encontrar esta publicación más valiosa, según el nivel de experiencia general?
+          from: '%{lvl} - '
+          level:
+            Advanced: Avanzado
+            Beginner: Principiante
+            Expert: Experto
+            Mid-level: Nivel medio
+            Novice: Novato
+        admin:
+          heading: Acciones de moderación
+          heading2: Acciones de moderación para %{user}
+          subtitle: Acciones de moderación para %{user}
+          aria_label: Abrir acciones de administrador
+          icon: Corona
+        flag_user: Marcar %{username}
+        unflag_user: Desmarcar %{username}
+        how: ¿Cómo funciona esto?
+        hidden:
+          subtitle: Comentarios ocultos
+          by: Comentario de %{user}
+        hint:
+          subtitle: Todas las reacciones negativas son privadas.
+          desc_html: |-
+            Usa <b>Alta calidad</b> para mover este contenido "hacia arriba" por cualquier razón (calidad, utilidad, etc.).
+            <br />
+            Usa <b>Baja calidad</b> para mover este contenido "hacia abajo" por cualquier razón (calidad, utilidad, etc.).
+            <br />
+            Usa <b>Marcar para los administradores</b> para violaciones del código de conducta (acoso, ser grosero, spam, etc.).
+        other: Otras cosas que puedes hacer
+        add_reaction: Agregar una reacción
+        score: Puntuación
+        suspend:
+          suspend_title: Suspender %{username}
+          suspend_user: Suspender %{username}
+          suspend_modal_text: Una vez suspendido, %{username} no podrá comentar ni publicar hasta que se elimine su suspensión.
+          suspend_modal_button: Enviar y Suspender
+          unsuspend_title: Reactivar %{username}
+          unsuspend_user: Reactivar %{username}
+          unsuspend_modal_text: Una vez reactivado, %{username} podrá volver a comentar y publicar.
+          unsuspend_modal_button: Enviar y Reactivar
+        flag: Marcar
+        tag:
+          subtitle: Ajustes de etiquetas
+          add: Agregar
+          added_html: '<b>Etiqueta agregada actualmente:</b> %{tag}'
+          live_html: '<b>Etiquetas activas actuales:</b> %{tags}'
+          reason: Razón del ajuste (Sea muy amable): solo se necesita la razón, la notificación se encargará del resto.
+          remove: Eliminar
+          removed_html: '<b>Etiqueta eliminada actualmente:</b> %{tag}'
+          select: Seleccionar etiqueta
+          submit: Enviar ajuste de etiqueta
+          tag_name: Nombre de la etiqueta
+          undo:
+            button: '×'
+            confirm: ¿Estás seguro de que deseas deshacer la %{type} de la etiqueta %{tag}?
+            type:
+              addition: adición
+              removal: eliminación
+        thumb_down: Pulgar abajo
+        thumb_up: Pulgar arriba
+        toggle: Alternar sección
+        feature: Destacar publicación
+        unfeature: Quitar destacado a la publicación
+        unpublish: Despublicar publicación
+        unpublish_all:
+          title: Despublicar todas las publicaciones
+          button: Despublicar todas las publicaciones de %{username}
+          modal_text1: Una vez despublicadas, todas las publicaciones de %{username} quedarán ocultas y solo serán accesibles para ellos mismos.
+          modal_text2: Si %{username} no está suspendido, aún puede volver a publicar sus publicaciones desde su panel de control.
+          modal_button: Despublicar todas las publicaciones
+        unpublish_post:
+          modal_text1: Una vez despublicada, esta publicación será invisible para el público y solo será accesible para %{username}.
+          modal_text2: Todavía pueden volver a publicar la publicación si no están suspendidos.
+        vomit: Banderas válidas y abiertas
+        vote_down: Baja calidad
+        flag_to_admins: Marcar para los administradores
+        vote_up: Alta calidad
+        featured_past_day:
+          one: 'Se ha destacado %{count} publicación del último día.'
+          other: 'Se han destacado %{count} publicaciones del último día.'
+      feed:
+        inbox_filter: Bandeja de entrada
+        latest_filter: Más recientes
+        inbox_html: <strong>Bandeja de entrada</strong> es una lista cronológica de publicaciones que aún no han sido examinadas por varios moderadores o miembros.
+        latest_html: <strong>Más recientes</strong> muestra todas las publicaciones en orden cronológico, independientemente de si han sido examinadas. 
+      article:
+        approved: Aprobado
+        email_digest_eligible: Elegible para resumen
+        author_id: ID del autor
+        comments: comentarios
+        contains_video: Contiene video
+        co_author_ids: ID de coautores
+        max_score: Puntuación máxima
+        no_max_if_zero: Sin máximo si se establece en cero
+        edit: Editar
+        featured: Destacado
+        likes: me gusta
+        notes:
+          user_notes: notas de usuario
+          view_all: Ver todo
+        pinned: Fijado
+        pin_post: Fijar publicación
+        published_at: Publicado en
+        save: Guardar
+        unpin_post: Desfijar publicación
+        unplublished: Despublicado
+        user: Usuario
+        user_warned: Usuario advertido
+        view_details: Ver detalles
+      aside:
+        all: Todas las etiquetas
+        code_of_conduct: Código de Conducta
+        external: Enlace externo
+        feedback:
+          subtitle: ¿Tienes comentarios para mejorar tu experiencia como moderador?
+          description: ¡Envíanos un correo electrónico a %{email}!
+        hello: '¡Hola! 👋'
+        thanks: ¡Gracias por ayudar a mantener %{community} seguro! ❤️
+        inbox: Bandeja de entrada
+        resources: Recursos
+        tag: Guía de moderación de etiquetas
+        terms_and_conditions: Términos y Condiciones
+        trusted: Guía del usuario de confianza
+        following_tags: Siguiendo etiquetas
+        moderating_tags: Moderando etiquetas
+      author: Autor
+      comments:
+        view_comment: Ver comentario
+        view_details: Ver detalles
+      date: Fecha
+      notice:
+        subtitle: 'Moderadores de %{community}'
+        desc1_html: Periódicamente otorgamos a algunos miembros de %{community} privilegios elevados para ayudar a moderar la comunidad.
+        desc2_html: Consulta nuestro %{code} y lee nuestro %{trusted} y %{tag}.
+        desc3_html: Si deseas ayudarnos como usuario de confianza o moderador de etiquetas, envíanos un correo electrónico a %{email} y haznos saber en qué función estás interesado y por qué. Si se trata de moderación de etiquetas, dinos qué etiquetas te gustaría moderar.
+        desc4: P.D. Actualmente no has iniciado sesión.
+        code_of_conduct: Código de Conducta
+        tag: Guía de moderación de etiquetas
+        trusted: Guía del usuario de confianza
+      post: Publicación
+      priviliged_actions:
+        description: Todas las acciones del moderador afectan la puntuación. La puntuación general es una combinación de acciones del moderador y reacciones públicas.
+        no_flags: El artículo no tiene banderas.
+        no_quality_reactions: El artículo no tiene reacciones de calidad de usuarios de confianza.
+        title: Acciones del moderador
+      members:
+        all: Todos
+        new: Nuevos
+        established: Establecidos
+        filter: Filtrar por miembros
+        label: 'Miembros'
+

@@ -1,0 +1,66 @@
+---
+es:
+  views:
+    tags:
+      meta:
+        title: Categorias
+        description: Categorias para seguir en %{community}
+        og:
+          description: "¡%{community} es genial!"
+      heading:
+        default: Categorias
+        search_results: Resultados de búsqueda para %{q}
+      search:
+        aria_labels:
+          search_input: Término de búsqueda de categoria
+          submit: Buscar categorias
+        placeholder: Buscar categoria
+      edit:
+        meta:
+          title: Editar %{tag}
+        admin: "Administrador"
+        help: "Ayuda"
+        view: "Ver"
+        form:
+          pretty_name:
+            label: Nombre bonito
+            placeholder: Este es el nombre que aparece en la parte superior de la página de presentación.
+          bg_color_hex:
+            label: Color de la categoria
+          short_summary:
+            label: Resumen breve
+            placeholder: Breve descripción de lo que trata esta categoria.
+          wiki_body_markdown:
+            label: Markdown del cuerpo del wiki
+            placeholder: Esta es una sección "acerca de". Siéntase libre de agregar preguntas frecuentes, recursos adicionales, etc.
+          rules_markdown:
+            label: Markdown de reglas
+            placeholder: Opcional: se puede utilizar para desafíos, es decir, pautas de envío.
+          submit: Guardar
+      follow: Seguir
+      hide: Ocultar
+      aria_labels:
+        follow: "Seguir categoria: %{tag_name}"
+        hide: "Ocultar categoria: %{tag_name}"
+      following_tags: Siguiendo categorias
+      hidden_tags: Categorias ocultas
+      moderator:
+        text_html: "separados por comas, el espacio es opcional. Ejemplo: %{code}"
+        code: 123
+        placeholder: "separados por comas, el espacio es opcional. Ejemplo: 1,2,3"
+      published:
+        one: 1 publicación
+        other: "%{count} publicaciones"
+      sidebar:
+        about: 'acerca de #%{tag}'
+        admin: Administrador
+        edit: Editar
+        guidelines: pautas de envío
+        moderate: Moderar
+        mods: moderadores de categorias
+        new: Crear publicación
+        older: 'Publicaciones #%{tag} antiguas'
+        published:
+          one: 1 publicación publicada
+          other: "%{count} publicaciones publicadas"
+

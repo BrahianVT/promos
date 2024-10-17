@@ -1,0 +1,41 @@
+es:
+  create_mascot:
+    name: Mascota
+    error: La mascota ya está configurada
+  broadcast:
+    welcome:
+      ask_question: "¡Hola, soy Sloan! 👋 Me di cuenta de que aún no has <a href='https://dev.to/t/explainlikeimfive'>hecho una pregunta</a>. Hacer una pregunta es fácil; simplemente haz clic en 'Crear publicación' en la barra lateral de la página de etiquetas para comenzar!"
+      customize_experience: "¡Hola, soy Sloan! 👋 ¿Sabías que puedes personalizar tu experiencia en DEV? Intenta cambiar <a href='settings/customization'>tu fuente y tema</a> y encuentra el estilo que mejor se adapte a ti."
+      customize_feed: "¡Hola, soy yo otra vez! 👋 Ahora que eres parte de la comunidad DEV, concentrémonos en personalizar tu contenido. Puedes comenzar <a href='/tags'>siguiendo algunas etiquetas</a> para ayudar a personalizar tu feed! 🎉"
+      discuss_and_ask: "¡Hola, soy Sloan! 👋 Me di cuenta de que aún no has <a href='https://dev.to/t/explainlikeimfive'>hecho una pregunta</a> ni <a href='https://dev.to/t/discuss'>iniciado una discusión</a>. Es fácil hacer ambas cosas; simplemente haz clic en 'Crear publicación' en la barra lateral de la página de etiquetas para comenzar!"
+      download_app: "¡Hola, soy Sloan, con un último consejo! 👋 ¿Ya has descargado la aplicación móvil DEV? Considera la posibilidad de <a href='https://dev.to/downloads'>descargarla</a> para que puedas acceder a todo tu contenido favorito de DEV sobre la marcha."
+      set_up_profile: "¡Bienvenido a DEV! 👋 Soy Sloan, la mascota de la comunidad y estoy aquí para ayudarte a comenzar. ¡Comencemos <a href='/settings'>configurando tu perfil</a>!"
+      start_discussion: "¡Hola, soy Sloan! 👋 Me di cuenta de que aún no has <a href='https://dev.to/t/discuss'>iniciado una discusión</a>. Iniciar una discusión es fácil; simplemente haz clic en 'Crear publicación' en la barra lateral de la página de etiquetas para comenzar!"
+      welcome_thread: "¡Hola de nuevo, soy Sloan! 👋 DEV es una comunidad amigable. ¡¿Por qué no te presentas dejando un comentario en <a href='/welcome'>el hilo de bienvenida</a>?!"
+    connect:
+      apple: "¡Vas por buen camino! 🎉 ¿Tienes una cuenta de Apple? Considera <a href='/settings'>conectarla</a>."
+      facebook: "¡Vas por buen camino! 🎉 ¿Tienes una cuenta de Facebook? Considera <a href='/settings'>conectarla</a>."
+      forem: "¡Vas por buen camino! 🎉 ¿Tienes una cuenta de Forem? Considera <a href='/settings'>conectarla</a>."
+      github: "¡Vas por buen camino! 🎉 ¿Tienes una cuenta de GitHub? Considera <a href='/settings'>conectarla</a> para que puedas anclar cualquiera de tus repositorios a tu perfil."
+      google: "¡Vas por buen camino! 🎉 ¿Tienes una cuenta de Google? Considera <a href='/settings'>conectarla</a>."
+      twitter: "¡Vas por buen camino! 🎉 ¿Tienes una cuenta de Twitter? Considera <a href='/settings'>conectarla</a> para que podamos @mencionarte si compartimos tu publicación a través de nuestra cuenta de Twitter <a href='https://twitter.com/thePracticalDev'>@thePracticalDev</a>."
+  errors:
+    authentication:
+      errors:
+        suspended: Parece que tu cuenta anterior de %{community_name} fue suspendida. Como tal, hemos tomado medidas para evitar que crees una nueva cuenta con %{community_name} y su comunidad. Si crees que ha habido un error, envíanos un correo electrónico a %{community_email} y lo revisaremos.
+    fastly_config:
+      must_be_array: 'configs: debe ser una matriz de cadenas'
+      invalid_config: Configuración de Fastly no válida: %{invalid_config}. Solo %{valid_configs_join} son válidos.
+  policies:
+    application_policy:
+      must_be_logged_in: debes iniciar sesión
+      you_must_be_logged_in: Debes iniciar sesión
+      your_account_is_suspended: Tu cuenta está suspendida
+    liquid_tag_policy:
+      no_user_found: No se encontró ningún usuario
+      not_permitted: El usuario no tiene permiso para usar esta etiqueta líquida
+  uploaders:
+    base_uploader:
+      too_many_frames: El GIF contiene demasiados fotogramas. El recuento máximo de fotogramas permitido es %{frame_max}.
+      timeout: Se agotó el tiempo de procesamiento de la imagen.
+

@@ -1,0 +1,72 @@
+---
+es:
+  views:
+    main:
+      aria_home: "Inicio %{community}"
+      header:
+        create_account: Crear cuenta
+        login: Iniciar Sesión
+        nav:
+          aria_label: Navegar Menu
+        moderation:
+          aria_label: Moderación
+          icon: Moderación
+        notifications:
+          aria_label: Notificaciones
+          icon: Notificaciones
+        skip: Saltar al contenido
+      modal:
+        create_account:
+          aria_label: Crear nueva cuenta
+          text: Crear nueva cuenta
+        login:
+          aria_label: Iniciar Sesión
+          text: Iniciar Sesión
+      nav:
+        admin: Administrador
+        dashboard: Dashboard
+        placeholder: "..."
+        list: Lista de lectura
+        moderator_center: Centro de moderación
+        other: Otros
+        settings: Configuraciones
+      nav_name:
+        About: Acerca
+        Code of Conduct: Codigo de conducta
+        Contact: Contacto
+        FAQ: FAQ
+        Home: Inicio
+        Listings: Listados
+        Podcasts: Podcasts
+        Privacy Policy: Politica de privacidad
+        Reading List: Lista de lectura
+        Tags: Categorias
+        Terms of use: Termino de uso
+        Videos: Videos
+      side:
+        active_discussions: "Discusiones Activas"
+        listings:
+          heading: Listados
+          all: Ver todos
+          new: Crear listados
+        trend: Tendencias
+        recent: Visto recientemente
+      tags:
+        aria_label: Personalizar la prioridad de las categorias
+        follow: Seguir
+        my_tags: Mis Categorias
+        popular_tags: Categorias Populares
+      footer:
+        built:
+          text_html: Construido %{forem} — the %{opensource} software that powers %{dev}.
+          forem: Forem
+          opensource: open source
+          dev: DEV
+        desc_html: "%{community} — %{desc}"
+        logo: Promoabastos logo
+        powered:
+          text_html: Hecho con amor con  %{rails}. %{community} <span title="copyright">&copy;</span> %{copyright}.
+          rails: Ruby on Rails
+        sidebar_desc_html: "%{community}\n%{desc}"
+      create_post: Crear Articulo
+      signout: Cerrar sesión

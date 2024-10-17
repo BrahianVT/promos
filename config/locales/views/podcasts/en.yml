@@ -4,7 +4,7 @@ en:
     podcasts:
       meta:
         title: Podcasts
-        description: Discover technical podcasts for %{member}
+        description: Discover podcasts for %{member}
         og:
           title: Podcasts on %{community}
       browse: Browse
