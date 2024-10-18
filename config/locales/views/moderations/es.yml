@@ -107,7 +107,7 @@ es:
           add: Agregar
           added_html: '<b>Etiqueta agregada actualmente:</b> %{tag}'
           live_html: '<b>Etiquetas activas actuales:</b> %{tags}'
-          reason: Razón del ajuste (Sea muy amable): solo se necesita la razón, la notificación se encargará del resto.
+          reason: Razón del ajuste (Sea muy amable) - solo se necesita la razón, la notificación se encargará del resto.
           remove: Eliminar
           removed_html: '<b>Etiqueta eliminada actualmente:</b> %{tag}'
           select: Seleccionar etiqueta
