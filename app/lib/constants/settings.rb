@@ -5,7 +5,7 @@ module Constants
       Customization
       Notifications
       Account
-      #Organization
+      Organization
       Extensions
     ].freeze
   end
