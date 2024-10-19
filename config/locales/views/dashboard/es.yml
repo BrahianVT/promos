@@ -9,19 +9,19 @@ es:
         mobile:
           posts: Publicaciones (%{num})
           followers: Seguidores (%{num})
-          following_tags: Etiquetas seguidas (%{num})
+          following_tags: Categorias seguidas (%{num})
           following_users: Usuarios seguidos (%{num})
           following_orgs: Organizaciones seguidas (%{num})
           following_pods: Podcasts seguidos (%{num})
-          hidden_tags: Etiquetas ocultas (%{num})
+          hidden_tags: Categorias ocultas (%{num})
         posts: Publicaciones
         series: Series
         followers: Seguidores
-        following_tags: Etiquetas seguidas
+        following_tags: Categorias seguidas
         following_users: Usuarios seguidos
         following_orgs: Organizaciones seguidas
         following_pods: Podcasts seguidos
-        hidden_tags: Etiquetas ocultas
+        hidden_tags: Categorias ocultas
         listings: Listados
         analytics: Analíticas
         for_org: Analíticas para %{org}
@@ -109,19 +109,19 @@ es:
         heading: Panel de control » Podcasts seguidos
         empty: Aún no sigues ningún podcast...
       following_tags:
-        heading: Panel de control » Etiquetas seguidas
-        empty_html: "<span>Sigue las etiquetas para personalizar tu feed. Puedes explorar etiquetas populares <a href=%{link}>aquí</a></span>."
+        heading: Panel de control » Categorias seguidas
+        empty_html: "<span>Sigue las categorias para personalizar tu feed. Puedes explorar categorias populares <a href=%{link}>aquí</a></span>."
       following_users:
         heading: Panel de control » Usuarios seguidos
         empty: No sigues a ningún usuario...
       hidden_tags:
-        heading: Panel de control » Etiquetas ocultas
-        empty_html: "<span>No tienes ninguna etiqueta oculta...</span>"
+        heading: Panel de control » Categorias ocultas
+        empty_html: "<span>No tienes ninguna categoria oculta...</span>"
       tags:
         following_button: Siguiendo
         options:
           icon: Opciones
-          hide: Ocultar etiqueta
+          hide: Ocultar categoria
         unhide_button: Mostrar
       listings:
         meta:

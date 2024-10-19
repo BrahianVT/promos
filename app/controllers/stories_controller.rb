@@ -33,6 +33,7 @@ class StoriesController < ApplicationController
 
   def show
     @story_show = true
+    
     path = "/#{params[:username].downcase}/#{params[:slug]}"
     if (@article = Article.includes(:user).find_by(path: path)&.decorate)
       handle_article_show
