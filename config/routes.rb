@@ -414,8 +414,8 @@ Rails.application.routes.draw do
     get "/:username/:slug/stats", to: "articles#stats"
     get "/:username/:view", to: "stories#index",
                             constraints: { view: /comments|moderate|admin/ }
-    #get "/:username/:slug", to: "stories#show"
-    get "/:slug", to: "stories#show"
+    get "/:username/:slug", to: "stories#show"
+    #get "/:slug", to: "stories#show"  # check for future
     get "/:sitemap", to: "sitemaps#show",
                      constraints: { format: /xml/, sitemap: /sitemap-.+/ }
     get "/:username", to: "stories#index", as: "user_profile", # No txt format
