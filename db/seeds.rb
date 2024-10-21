@@ -276,6 +276,7 @@ seeder.create_if_none(Article, num_articles) do
       body_markdown: markdown,
       featured: i.zero?, # only feature the first article,
       show_comments: true,
+      price: Faker::Commerce.price(range: 1.0..100.0), # Generates a plausible price
       user_id: User.order(Arel.sql("RANDOM()")).first.id,
     )
 
