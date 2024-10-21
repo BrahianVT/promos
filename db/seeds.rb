@@ -231,8 +231,8 @@ end
 ##############################################################################
 
 seeder.create_if_none(Tag) do
-  tags = %w[beginners career computerscience git go
-            java javascript linux productivity python security webdev]
+  tags = %w[subasta hortalizas abarrotes pernocta carnicos
+            viga F W B pasillo2 pasillo3 pasillo4]
 
   tags.each do |tag_name|
     Tag.create!(
@@ -248,7 +248,7 @@ end
 
 ##############################################################################
 
-num_articles = 25 * SEEDS_MULTIPLIER
+num_articles = 30 * SEEDS_MULTIPLIER
 
 seeder.create_if_none(Article, num_articles) do
   user_ids = User.all.ids
