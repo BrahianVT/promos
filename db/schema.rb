@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_09_09_155030) do
+ActiveRecord::Schema[7.0].define(version: 2024_10_21_020923) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "citext"
   enable_extension "ltree"
@@ -134,6 +134,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_09_09_155030) do
     t.integer "positive_reactions_count", default: 0, null: false
     t.integer "previous_positive_reactions_count", default: 0
     t.integer "previous_public_reactions_count", default: 0, null: false
+    t.float "price"
     t.integer "privileged_users_reaction_points_sum", default: 0
     t.text "processed_html"
     t.integer "public_reactions_count", default: 0, null: false
