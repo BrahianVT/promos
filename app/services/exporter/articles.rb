@@ -59,6 +59,7 @@ module Exporter
         slug
         social_image
         title
+        price
         video
         video_code
       ]
