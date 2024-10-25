@@ -12,6 +12,7 @@ module Homepage
       published_at
       reading_time
       title
+      price
       user_id
       video_duration_in_seconds
       video_thumbnail_url
