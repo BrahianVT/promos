@@ -62,3 +62,43 @@ This file defines the `PodcastArticle` component, responsible for displaying ind
     - It shows the podcast's title (`article.podcast.title`) with a link to the podcast's page.
 
 **Overall, these components suggest a system for displaying articles on a website, with a special focus on presenting podcast articles differently.** The loading component helps provide a smooth user experience during data fetching. 
+
+
+###  limited_column_select
+You don't need to explicitly add the `limited_column_select` scope within your `default_home_feed` method because it's already being chained in the code snippet you provided:
+
+```ruby
+def default_home_feed(**_kwargs)
+  articles = Article.published
+    .order(hotness_score: :desc)
+    .with_at_least_home_feed_minimum_score
+    .limit(@number_of_articles)
+    .limited_column_select # It's already here!
+    .includes(top_comments: :user)
+    .includes(:distinct_reaction_categories)
+  return articles unless @user
+  # ... (rest of your method)
+end 
+```
+
+**Explanation:**
+
+1. **Chained Scopes:** In Rails, you can chain multiple scopes and query methods together. This makes your code readable and efficient. 
+2. **Order of Operations:**  The database query is only executed when you actually try to access the data within the `articles` variable. Before that, you're simply building up the query.
+3. **`limited_column_select` in Action:**  When the query runs, the `limited_column_select` scope ensures that only the specified columns (like `title`, `slug`, `main_image`, etc.) are retrieved from the database.
+
+**Example:**
+
+Imagine you call your method like this:
+
+```ruby
+@articles = default_home_feed 
+```
+
+Here's how the query building and execution happen behind the scenes:
+
+1. **Scope Chaining:** Your `default_home_feed` method constructs an ActiveRecord query with all the applied scopes (`.published`, `.order(...)`, `.limited_column_select`, etc.).
+2. **Query Execution:** When you access `@articles` (e.g., to display them in a view), the query is sent to the database, retrieving only the necessary columns defined in `limited_column_select`. 
+
+**In summary,** your existing code already utilizes the `limited_column_select` scope effectively. You don't need to add it again. Keep chaining your scopes for clean and performant data retrieval in your Rails application! 
+

@@ -62,7 +62,7 @@ export const Article = ({
         aria-labelledby={`article-link-${article.id}`}
         className="crayons-story__hidden-navigation-link"
       >
-        {article.title}
+        {article.price} - {article.title}
       </a>
       <div
         role="presentation"
