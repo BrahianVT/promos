@@ -26,6 +26,7 @@ module Homepage
       :readable_publish_date,
       :reading_time,
       :title,
+      :price,
       :user_id,
       :public_reaction_categories,
     )
