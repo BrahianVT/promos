@@ -6,7 +6,7 @@ class StoriesController < ApplicationController
       title path id user_id comments_count public_reactions_count organization_id
       reading_time video_thumbnail_url video video_duration_in_minutes
       experience_level_rating experience_level_rating_distribution cached_user cached_organization
-      listing_category_id
+       price
     ],
     methods: %i[
       readable_publish_date cached_tag_list_array flare_tag class_name
