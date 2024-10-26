@@ -5,7 +5,7 @@ class ModerationsController < ApplicationController
   SCORE_MAX = 5
 
   JSON_OPTIONS = {
-    only: %i[id title published_at cached_tag_list path nth_published_by_author],
+    only: %i[id title published_at cached_tag_list path nth_published_by_author price],
     include: {
       user: { only: %i[username name path articles_count id] }
     }
